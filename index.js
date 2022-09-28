@@ -35,6 +35,11 @@ app.get('/home', (req,res) => {
     res.send("Amin's Home")
 });
 
+app.get('/product', (req,res) => {
+    res.send("Amin's Home")
+});
+
+
 app.listen(port, () => { console.log('Our App Is Up And Running!'); });
 
 module.exports = app
